@@ -1,13 +1,19 @@
 package code;
 import javax.swing.JOptionPane;
-
+/**
+ * 
+ * @author Enrique
+ *
+ */
 public class VerificaNumerosAmigos {
 
 	/*
 	 * Dos números son amigos cuando la suma de los divisores de uno da como resultado el otro y viceversa.
 	 * Por ejemplo: 220 y 284 son amigos.
 	 * */
-	
+	/**
+	 * 
+	 */
     public void verificador() {
         String entrada;
 
@@ -23,7 +29,12 @@ public class VerificaNumerosAmigos {
             JOptionPane.showMessageDialog(null, x + " no es amigo de " + y);
         }        
     }
-    
+    /**
+     * 
+     * @param x
+     * @param y
+     * @return
+     */
    public boolean comprobarSiAmigos(int x, int y) {
     	int i, z = 0;
     	

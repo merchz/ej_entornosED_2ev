@@ -3,10 +3,13 @@
 
 1. (2 puntos)
 	* Crea una rama nueva del proyecto a partir de la rama develop, llámala doc.
+		git branch doc
  	* Elabora la documentación de Javadoc para cada clase, método y propiedad.
+ 	
 
 2. (2 puntos)
  	* Crea una rama nueva del proyecto a partir de la rama develop, llámala tests.
+ 	git branch tests
  	* Escribe Test JUnit para las clases actuales del proyecto.
  	* Ejecuta los test JUnit que has creado.
 

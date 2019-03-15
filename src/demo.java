@@ -1,15 +1,24 @@
 import code.MinimoComunMultiplo;
 import code.VerificaNumerosAmigos;
-
+/**
+ * 
+ * @author Enrique
+ *
+ */
 public class demo {
-
+/**
+ * 
+ * @param args
+ */
 		public static void main (String[] args) {
 			
 			numerosAmigos();
 			minimoComunMultiplo();
 			
 		}
-		
+		/**
+		 * metodo que crea objetos
+		 */
 		public static void numerosAmigos() {
 			VerificaNumerosAmigos vf = new VerificaNumerosAmigos();
 			vf.verificador();

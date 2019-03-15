@@ -1,9 +1,17 @@
 package code;
 
-
+/**
+ * 
+ * @author Enrique
+ *
+ */
 public class MinimoComunMultiplo {
   public MinimoComunMultiplo() {}
-
+/**
+ * 
+ * @param args
+ * @return un mensaje
+ */
   public int candidatosMcM(int[] args) {
     if (args.length < 2) {
       throw new IllegalArgumentException(
@@ -30,7 +38,11 @@ public class MinimoComunMultiplo {
       d += max;
     }
   }
-
+/**
+ * 
+ * @param ints
+ * @return verdadero o falso
+ */
   private boolean algunoEsCero(int[] ints) {
     for (int d : ints) {
       if (d == 0) {
@@ -40,7 +52,11 @@ public class MinimoComunMultiplo {
 
     return false;
   }
-
+/**
+ * 
+ * @param ints
+ * @return
+ */
   private static int[] abs(int[] ints) {
     int[] abs = new int[ints.length];
 
@@ -50,7 +66,11 @@ public class MinimoComunMultiplo {
 
     return abs;
   }
-  
+  /**
+   * 
+   * @param ints
+   * @return
+   */
 
   private int max(int[] ints) {
     int max = ints[0];
